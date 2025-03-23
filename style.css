@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: lightgray;
+    font-family: "poppins",sans-serif;
+}
+.container{
+    display: flex;
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+}
+img{
+    display: block;
+    width: 350px;
+    height: 410px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.container .content-box{
+    display:block;
+    margin-top: 20px;
+}
+.container .content-box h2{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    margin-bottom: 0;
+}
+.container .content-box p{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.container .content-box .input_format label{
+    display: block;
+    margin-top:20px;
+    margin-bottom: 5px;
+}
+.container .content-box .input_format label::first-letter{
+    color: red;
+}
+.container .content-box .input_format input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.container .content-box button{
+    display: flex;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 250px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.container .content-box .first-button{
+    background-color: lightblue;
+    font-weight: bold;
+}
