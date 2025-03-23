@@ -43,7 +43,7 @@ img{
 }
 .container .content-box .input_format label{
     display: block;
-    margin-top:20px;
+    margin-top:5px;
     margin-bottom: 5px;
 }
 .container .content-box .input_format label::first-letter{
@@ -54,7 +54,7 @@ img{
     width: 250px;
     border: 1px solid lightgray;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 100;
 }
 .container .content-box button{
